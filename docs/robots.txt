@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srxtide.github.io/Trailblazer-bw/sitemap.xml

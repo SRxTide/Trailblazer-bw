@@ -1,0 +1,1515 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trailblazer-bw 小白使用教程 | Windows 最新版下载与启动指南</title>
+  <meta name="description" content="面向小白的 Trailblazer-bw Windows 使用教程：从 GitHub Release 下载最新版、解压启动、二维码登录、输入B站会员购链接，到选择票档购票人并确认执行。">
+  <meta name="keywords" content="Trailblazer-bw 小白教程,Trailblazer-bw Windows 下载,B站会员购使用指南,Bilibili 会员购教程,PushPlus 推送教程,二维码登录教程">
+  <meta name="author" content="SRxTide">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#14110c">
+  <link rel="canonical" href="https://srxtide.github.io/Trailblazer-bw/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trailblazer-bw Docs">
+  <meta property="og:title" content="Trailblazer-bw 小白使用教程 | Windows 最新版下载与启动指南">
+  <meta property="og:description" content="一页读完 Trailblazer-bw 的 Windows 下载、启动、扫码登录、填写票务信息和执行流程。">
+  <meta property="og:url" content="https://srxtide.github.io/Trailblazer-bw/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trailblazer-bw 小白使用教程">
+  <meta name="twitter:description" content="Trailblazer-bw Windows 下载、启动、二维码登录、填写票务信息和 FAQ 教程。">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://srxtide.github.io/Trailblazer-bw/#website",
+        "url": "https://srxtide.github.io/Trailblazer-bw/",
+        "name": "Trailblazer-bw Docs",
+        "inLanguage": "zh-CN"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://srxtide.github.io/Trailblazer-bw/#webpage",
+        "url": "https://srxtide.github.io/Trailblazer-bw/",
+        "name": "Trailblazer-bw 小白使用教程 | Windows 最新版下载与启动指南",
+        "description": "面向小白的 Trailblazer-bw Windows 使用教程：从 GitHub Release 下载最新版、解压启动、二维码登录、输入B站会员购链接，到选择票档购票人并确认执行。",
+        "isPartOf": { "@id": "https://srxtide.github.io/Trailblazer-bw/#website" },
+        "breadcrumb": { "@id": "https://srxtide.github.io/Trailblazer-bw/#breadcrumb" },
+        "dateModified": "2026-06-02",
+        "inLanguage": "zh-CN"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Trailblazer-bw",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Windows",
+        "url": "https://github.com/SRxTide/Trailblazer-bw",
+        "softwareHelp": "https://srxtide.github.io/Trailblazer-bw/",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "CNY"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://srxtide.github.io/Trailblazer-bw/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trailblazer-bw",
+            "item": "https://github.com/SRxTide/Trailblazer-bw"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "使用教程",
+            "item": "https://srxtide.github.io/Trailblazer-bw/"
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "name": "Trailblazer-bw 使用教程",
+        "description": "在 Windows 上下载并启动 Trailblazer-bw，完成二维码登录、填写票务信息，并确认执行任务。",
+        "totalTime": "PT10M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "准备 Windows 使用条件",
+            "text": "准备 Windows 电脑、可扫码登录的哔哩哔哩 APP、会员购票务页面链接，以及账号中已经维护好的购票人信息。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "下载最新版",
+            "text": "打开 https://github.com/SRxTide/Trailblazer-bw/releases/latest，在最新 Release 中下载 Windows 版本文件。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "解压并启动",
+            "text": "将下载的压缩包解压到单独文件夹，进入解压后的文件夹，双击 exe 程序启动。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "二维码登录",
+            "text": "使用哔哩哔哩 APP 扫描程序生成的二维码，并在手机端确认登录。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "填写票务信息",
+            "text": "按程序提示输入 B站会员购票务 URL，选择票档、数量、购票人、抢票开始时间和可选 PushPlus 令牌。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "确认执行",
+            "text": "核对程序显示的票务摘要，确认无误后输入 y 开始执行。"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Trailblazer-bw 支持哪些系统？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "当前教程仅面向 Windows。使用前需要准备 Windows 电脑、可扫码登录的哔哩哔哩 APP，以及有效的 B站会员购票务页面链接。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "任务文件保存在哪里？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "任务文件保存在程序所在文件夹，默认文件名可能是 ticket.json 或 new_ticket.json。下次启动时请仍然从同一个文件夹打开程序。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "如何设置抢票开始时间？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "填写抢票开始时间时建议使用 2025-06-23 01:26:21 这种格式；留空表示立即开始。"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #14110c;
+      --bg-deep: #090806;
+      --panel: rgba(36, 30, 20, 0.78);
+      --panel-strong: rgba(48, 39, 24, 0.92);
+      --paper: #f2e4c2;
+      --paper-dim: #c6b58c;
+      --paper-muted: #927e5f;
+      --line: rgba(242, 228, 194, 0.2);
+      --line-strong: rgba(242, 228, 194, 0.36);
+      --amber: #e0a83b;
+      --amber-hot: #ffc657;
+      --red: #ff5a3d;
+      --green: #72d6a2;
+      --cyan: #68d8cf;
+      --shadow: rgba(0, 0, 0, 0.42);
+      --mono: "IBM Plex Mono", "Cascadia Mono", "Menlo", monospace;
+      --serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+      --radius-lg: 28px;
+      --radius-md: 18px;
+      --radius-sm: 10px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--bg-deep);
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--paper);
+      font-family: var(--serif);
+      background:
+        radial-gradient(circle at 16% 12%, rgba(224, 168, 59, 0.2), transparent 28rem),
+        radial-gradient(circle at 88% 18%, rgba(104, 216, 207, 0.12), transparent 30rem),
+        linear-gradient(135deg, rgba(255, 90, 61, 0.08), transparent 42%),
+        var(--bg);
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    body::before {
+      opacity: 0.2;
+      background-image:
+        linear-gradient(rgba(242, 228, 194, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(242, 228, 194, 0.05) 1px, transparent 1px);
+      background-size: 46px 46px;
+      mask-image: linear-gradient(to bottom, black 0%, transparent 82%);
+    }
+
+    body::after {
+      opacity: 0.12;
+      background-image:
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.8) 0 1px, transparent 1px 3px),
+        radial-gradient(circle at center, transparent 0, rgba(0, 0, 0, 0.78) 74%);
+      mix-blend-mode: soft-light;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    summary:focus-visible {
+      outline: 3px solid var(--cyan);
+      outline-offset: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      left: 1rem;
+      top: 1rem;
+      z-index: 20;
+      transform: translateY(-160%);
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      padding: 0.65rem 1rem;
+      background: var(--paper);
+      color: var(--bg-deep);
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .page-shell {
+      position: relative;
+      isolation: isolate;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid var(--line);
+      background: rgba(12, 10, 7, 0.82);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      width: min(var(--max), calc(100% - 2rem));
+      margin: 0 auto;
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-family: var(--mono);
+      letter-spacing: -0.04em;
+      font-weight: 700;
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line-strong);
+      border-radius: 50%;
+      background:
+        conic-gradient(from 210deg, var(--amber), var(--red), var(--cyan), var(--amber)),
+        var(--panel);
+      color: var(--bg-deep);
+      box-shadow: 0 0 0 6px rgba(224, 168, 59, 0.08);
+    }
+
+    .brand small {
+      display: block;
+      margin-top: -0.1rem;
+      color: var(--paper-muted);
+      font-size: 0.67rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .top-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+    }
+
+    .top-nav a {
+      border: 1px solid transparent;
+      border-radius: 999px;
+      padding: 0.5rem 0.75rem;
+      color: var(--paper-dim);
+      transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+    }
+
+    .top-nav a:hover {
+      border-color: var(--line);
+      color: var(--paper);
+      background: rgba(242, 228, 194, 0.06);
+    }
+
+    .hero {
+      width: min(var(--max), calc(100% - 2rem));
+      margin: 0 auto;
+      padding: clamp(4rem, 9vw, 8.5rem) 0 4.5rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.78fr);
+      gap: clamp(2rem, 6vw, 4.5rem);
+      align-items: center;
+    }
+
+    .hero-copy {
+      position: relative;
+    }
+
+    .hero-copy::before {
+      content: "使用教程";
+      position: absolute;
+      top: -4.8rem;
+      left: -1.2rem;
+      z-index: -1;
+      color: rgba(242, 228, 194, 0.035);
+      font-family: var(--serif);
+      font-size: clamp(5rem, 17vw, 13.5rem);
+      font-weight: 900;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1.2rem;
+      border: 1px solid rgba(224, 168, 59, 0.38);
+      border-radius: 999px;
+      padding: 0.4rem 0.75rem 0.42rem;
+      color: var(--amber-hot);
+      background: rgba(224, 168, 59, 0.08);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 0.55rem;
+      height: 0.55rem;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 20px var(--green);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      line-height: 1.08;
+      text-wrap: balance;
+    }
+
+    h1 {
+      max-width: 880px;
+      font-size: clamp(3.25rem, 8.4vw, 7.9rem);
+      font-weight: 900;
+      letter-spacing: -0.08em;
+    }
+
+    .title-accent {
+      color: var(--amber-hot);
+      text-shadow: 0 0 36px rgba(224, 168, 59, 0.26);
+    }
+
+    .hero-lede {
+      max-width: 760px;
+      margin: 1.5rem 0 0;
+      color: var(--paper-dim);
+      font-size: clamp(1.02rem, 1.7vw, 1.24rem);
+    }
+
+    .hero-lede strong {
+      color: var(--paper);
+      font-weight: 700;
+    }
+
+    .community-callout {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.45rem 0.8rem;
+      max-width: 100%;
+      margin-top: 1.35rem;
+      border: 1px solid rgba(224, 168, 59, 0.58);
+      border-radius: 999px;
+      padding: 0.62rem 1rem 0.68rem;
+      background:
+        linear-gradient(135deg, rgba(255, 198, 87, 0.2), rgba(104, 216, 207, 0.08)),
+        rgba(242, 228, 194, 0.06);
+      color: var(--paper);
+      box-shadow: 0 18px 44px rgba(224, 168, 59, 0.16);
+      font-family: var(--mono);
+      font-size: clamp(0.95rem, 1.4vw, 1.1rem);
+      font-weight: 700;
+    }
+
+    .community-callout strong {
+      color: var(--amber-hot);
+      font-size: clamp(1.32rem, 2.5vw, 2rem);
+      line-height: 1;
+      letter-spacing: 0.035em;
+      text-shadow: 0 0 28px rgba(224, 168, 59, 0.32);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      margin-top: 2rem;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      min-height: 46px;
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      padding: 0.74rem 1.1rem;
+      font-family: var(--mono);
+      font-size: 0.86rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .button.primary {
+      border-color: rgba(224, 168, 59, 0.66);
+      background: linear-gradient(135deg, var(--amber-hot), var(--amber));
+      color: var(--bg-deep);
+      box-shadow: 0 18px 44px rgba(224, 168, 59, 0.22);
+    }
+
+    .button.ghost {
+      color: var(--paper-dim);
+      background: rgba(242, 228, 194, 0.05);
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .hero-notes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+      gap: 0.7rem;
+      margin-top: 2.2rem;
+    }
+
+    .note-chip {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 0.7rem 0.75rem;
+      background: rgba(242, 228, 194, 0.045);
+      color: var(--paper-dim);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      line-height: 1.35;
+    }
+
+    .note-chip b {
+      display: block;
+      color: var(--paper);
+      font-size: 0.86rem;
+    }
+
+    .quick-card {
+      position: relative;
+      border: 1px solid rgba(242, 228, 194, 0.22);
+      border-radius: var(--radius-lg);
+      padding: 1rem;
+      background:
+        linear-gradient(145deg, rgba(242, 228, 194, 0.09), rgba(242, 228, 194, 0.025)),
+        rgba(14, 12, 8, 0.76);
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.4);
+      transform: rotate(1.6deg);
+    }
+
+    .quick-card::before {
+      content: "";
+      position: absolute;
+      inset: -1px;
+      z-index: -1;
+      border-radius: inherit;
+      background: linear-gradient(135deg, rgba(224, 168, 59, 0.68), transparent 32%, rgba(104, 216, 207, 0.36));
+      filter: blur(14px);
+      opacity: 0.36;
+    }
+
+    .terminal {
+      overflow: hidden;
+      border: 1px solid rgba(242, 228, 194, 0.2);
+      border-radius: 22px;
+      background: #0c0b08;
+    }
+
+    .terminal-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      border-bottom: 1px solid rgba(242, 228, 194, 0.13);
+      padding: 0.8rem 0.95rem;
+      background: rgba(242, 228, 194, 0.055);
+      color: var(--paper-muted);
+      font-family: var(--mono);
+      font-size: 0.74rem;
+    }
+
+    .terminal-dots {
+      display: flex;
+      gap: 0.38rem;
+    }
+
+    .terminal-dots span {
+      width: 0.64rem;
+      height: 0.64rem;
+      border-radius: 50%;
+      background: var(--paper-muted);
+    }
+
+    .terminal-dots span:nth-child(1) { background: var(--red); }
+    .terminal-dots span:nth-child(2) { background: var(--amber-hot); }
+    .terminal-dots span:nth-child(3) { background: var(--green); }
+
+    .terminal pre {
+      margin: 0;
+      padding: 1.1rem;
+      color: #d9f5d8;
+      font-family: var(--mono);
+      font-size: clamp(0.78rem, 1.4vw, 0.92rem);
+      line-height: 1.72;
+      overflow-x: auto;
+      tab-size: 2;
+    }
+
+    .prompt {
+      color: var(--amber-hot);
+    }
+
+    .quick-steps {
+      margin: 1rem 0 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: quick;
+    }
+
+    .quick-steps li {
+      counter-increment: quick;
+      display: grid;
+      grid-template-columns: 2.4rem 1fr;
+      gap: 0.85rem;
+      align-items: start;
+      border-top: 1px solid rgba(242, 228, 194, 0.13);
+      padding: 1rem 0.2rem;
+      color: var(--paper-dim);
+    }
+
+    .quick-steps li::before {
+      content: counter(quick, decimal-leading-zero);
+      display: grid;
+      place-items: center;
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid rgba(224, 168, 59, 0.52);
+      border-radius: 50%;
+      color: var(--amber-hot);
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .quick-steps strong {
+      display: block;
+      color: var(--paper);
+      font-size: 0.98rem;
+      line-height: 1.35;
+    }
+
+    .content-wrap {
+      width: min(var(--max), calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 0 0 5rem;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: clamp(1.5rem, 4vw, 3rem);
+      align-items: start;
+    }
+
+    .toc {
+      position: sticky;
+      top: 96px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      background: rgba(14, 12, 8, 0.68);
+      backdrop-filter: blur(16px);
+    }
+
+    .toc-title {
+      margin: 0 0 0.75rem;
+      color: var(--amber-hot);
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .toc a {
+      display: block;
+      border-left: 2px solid transparent;
+      padding: 0.42rem 0.65rem;
+      color: var(--paper-muted);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      line-height: 1.45;
+      transition: color 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .toc a:hover,
+    .toc a.is-active {
+      border-color: var(--amber-hot);
+      color: var(--paper);
+      background: rgba(224, 168, 59, 0.08);
+    }
+
+    .docs-main {
+      min-width: 0;
+    }
+
+    .section {
+      position: relative;
+      scroll-margin-top: 96px;
+      margin-bottom: 1.4rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: clamp(1.25rem, 3vw, 2.2rem);
+      background:
+        linear-gradient(135deg, rgba(242, 228, 194, 0.075), rgba(242, 228, 194, 0.026)),
+        rgba(16, 14, 10, 0.78);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
+    }
+
+    .section::before {
+      content: attr(data-index);
+      position: absolute;
+      right: 1.2rem;
+      top: 0.9rem;
+      color: rgba(242, 228, 194, 0.07);
+      font-family: var(--mono);
+      font-size: clamp(2.5rem, 7vw, 5.2rem);
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .section h2 {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 0.8rem;
+      color: var(--paper);
+      font-size: clamp(1.8rem, 4.2vw, 3.05rem);
+      letter-spacing: -0.055em;
+    }
+
+    .section h3 {
+      margin: 1.4rem 0 0.6rem;
+      color: var(--amber-hot);
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+
+    .section p {
+      margin: 0.75rem 0;
+      color: var(--paper-dim);
+    }
+
+    .section strong {
+      color: var(--paper);
+    }
+
+    .section a:not(.button) {
+      color: var(--cyan);
+      text-decoration: underline;
+      text-decoration-color: rgba(104, 216, 207, 0.45);
+      text-underline-offset: 0.22em;
+    }
+
+    .lead {
+      max-width: 820px;
+      color: var(--paper-dim);
+      font-size: 1.06rem;
+    }
+
+    .callout {
+      position: relative;
+      margin: 1.1rem 0;
+      border: 1px solid rgba(224, 168, 59, 0.35);
+      border-radius: var(--radius-md);
+      padding: 1rem 1rem 1rem 1.1rem;
+      background: rgba(224, 168, 59, 0.08);
+      color: var(--paper-dim);
+    }
+
+    .callout strong {
+      color: var(--amber-hot);
+    }
+
+    .grid-two,
+    .grid-three {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.1rem;
+    }
+
+    .grid-two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid-three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .info-card {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      background: rgba(242, 228, 194, 0.04);
+    }
+
+    .info-card .tag {
+      display: inline-flex;
+      margin-bottom: 0.72rem;
+      border: 1px solid rgba(104, 216, 207, 0.38);
+      border-radius: 999px;
+      padding: 0.16rem 0.55rem;
+      color: var(--cyan);
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .info-card h3 {
+      margin-top: 0;
+      color: var(--paper);
+      font-size: 1.08rem;
+    }
+
+    .info-card p {
+      margin-bottom: 0;
+      font-size: 0.96rem;
+    }
+
+    .steps {
+      display: grid;
+      gap: 1rem;
+      margin: 1.2rem 0 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: docs-step;
+    }
+
+    .steps li {
+      counter-increment: docs-step;
+      position: relative;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 1rem 1rem 1rem 4.2rem;
+      background: rgba(242, 228, 194, 0.038);
+    }
+
+    .steps li::before {
+      content: counter(docs-step);
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      display: grid;
+      place-items: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border: 1px solid rgba(224, 168, 59, 0.48);
+      border-radius: 50%;
+      background: rgba(224, 168, 59, 0.08);
+      color: var(--amber-hot);
+      font-family: var(--mono);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .steps strong {
+      display: block;
+      margin-bottom: 0.2rem;
+      color: var(--paper);
+      font-size: 1.03rem;
+    }
+
+    .code-block {
+      position: relative;
+      margin: 1rem 0;
+      overflow: hidden;
+      border: 1px solid rgba(242, 228, 194, 0.18);
+      border-radius: var(--radius-md);
+      background: #0a0907;
+    }
+
+    .code-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      border-bottom: 1px solid rgba(242, 228, 194, 0.12);
+      padding: 0.56rem 0.75rem;
+      color: var(--paper-muted);
+      background: rgba(242, 228, 194, 0.045);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+    }
+
+    .copy-code {
+      border: 1px solid rgba(242, 228, 194, 0.22);
+      border-radius: 999px;
+      padding: 0.28rem 0.55rem;
+      background: rgba(242, 228, 194, 0.06);
+      color: var(--paper-dim);
+      cursor: pointer;
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      transition: color 160ms ease, border-color 160ms ease, transform 160ms ease;
+    }
+
+    .copy-code:hover {
+      border-color: rgba(104, 216, 207, 0.5);
+      color: var(--cyan);
+      transform: translateY(-1px);
+    }
+
+    .code-block pre {
+      margin: 0;
+      padding: 1rem;
+      overflow-x: auto;
+      color: #d9f5d8;
+      font-family: var(--mono);
+      font-size: 0.88rem;
+      line-height: 1.72;
+    }
+
+    code,
+    kbd {
+      font-family: var(--mono);
+    }
+
+    p code,
+    li code,
+    td code {
+      border: 1px solid rgba(242, 228, 194, 0.16);
+      border-radius: 0.45rem;
+      padding: 0.08rem 0.38rem;
+      background: rgba(242, 228, 194, 0.07);
+      color: var(--amber-hot);
+      font-size: 0.9em;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+    }
+
+    .table-wrap {
+      margin-top: 1rem;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: rgba(242, 228, 194, 0.035);
+    }
+
+    table {
+      width: 100%;
+      min-width: 680px;
+      border-collapse: collapse;
+      font-size: 0.94rem;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid rgba(242, 228, 194, 0.12);
+      padding: 0.82rem 0.95rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--paper);
+      background: rgba(224, 168, 59, 0.09);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.03em;
+    }
+
+    td {
+      color: var(--paper-dim);
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.2rem;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 1.3rem;
+      top: 1.8rem;
+      bottom: 1.8rem;
+      width: 1px;
+      background: linear-gradient(to bottom, var(--amber-hot), rgba(104, 216, 207, 0.15));
+    }
+
+    .timeline-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 2.6rem 1fr;
+      gap: 1rem;
+      align-items: start;
+    }
+
+    .timeline-dot {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      place-items: center;
+      width: 2.6rem;
+      height: 2.6rem;
+      border: 1px solid rgba(224, 168, 59, 0.5);
+      border-radius: 50%;
+      background: var(--bg);
+      color: var(--amber-hot);
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .timeline-body {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 0.95rem 1rem;
+      background: rgba(242, 228, 194, 0.04);
+    }
+
+    .timeline-body h3 {
+      margin: 0 0 0.4rem;
+      color: var(--paper);
+      font-size: 1rem;
+    }
+
+    .timeline-body p {
+      margin: 0;
+    }
+
+    .faq {
+      display: grid;
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: rgba(242, 228, 194, 0.04);
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 1rem;
+      color: var(--paper);
+      font-weight: 700;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      float: right;
+      color: var(--amber-hot);
+      font-family: var(--mono);
+    }
+
+    details[open] summary::after {
+      content: "-";
+    }
+
+    details p {
+      margin: 0;
+      border-top: 1px solid rgba(242, 228, 194, 0.12);
+      padding: 0.9rem 1rem 1rem;
+    }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      padding: 2.4rem 1rem 3rem;
+      color: var(--paper-muted);
+      text-align: center;
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      background: rgba(9, 8, 6, 0.6);
+    }
+
+    .footer a {
+      color: var(--paper-dim);
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: rise 680ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    .reveal:nth-child(2) { animation-delay: 80ms; }
+    .reveal:nth-child(3) { animation-delay: 140ms; }
+    .reveal:nth-child(4) { animation-delay: 200ms; }
+
+    @keyframes rise {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 980px) {
+      .top-nav {
+        display: none;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-card {
+        transform: none;
+      }
+
+      .hero-notes,
+      .grid-three {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .content-wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.25rem 0.5rem;
+      }
+
+      .toc-title {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .topbar-inner {
+        min-height: 64px;
+      }
+
+      .brand small {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 3rem;
+      }
+
+      h1 {
+        font-size: clamp(2.7rem, 16vw, 4.8rem);
+      }
+
+      .hero-notes,
+      .grid-two,
+      .grid-three,
+      .toc {
+        grid-template-columns: 1fr;
+      }
+
+      .section::before {
+        display: none;
+      }
+
+      .steps li {
+        padding-left: 1rem;
+        padding-top: 3.8rem;
+      }
+
+      .code-block pre,
+      .terminal pre {
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 1ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="page-shell">
+    <header class="topbar" aria-label="页面顶部导航">
+      <div class="topbar-inner">
+        <a class="brand" href="#top" aria-label="Trailblazer-bw 使用教程首页">
+          <span class="brand-mark" aria-hidden="true">TB</span>
+          <span>Trailblazer-bw <small>usage field manual</small></span>
+        </a>
+        <nav class="top-nav" aria-label="快速导航">
+          <a href="#prepare">准备</a>
+          <a href="#install">下载</a>
+          <a href="#config">填写信息</a>
+          <a href="#run">执行</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://github.com/SRxTide/Trailblazer-bw" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top" aria-labelledby="page-title">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">B站会员购 · 使用教程</div>
+        <h1 id="page-title">Trailblazer-bw <span class="title-accent">操作手册</span></h1>
+        <p class="hero-lede">这是一份面向小白的教程页：从 <strong>Windows 最新版下载</strong>、<strong>双击启动</strong>、<strong>二维码登录</strong>、<strong>填写票务信息</strong> 和确认执行。不会要求你安装开发环境，也不需要运行源码。</p>
+        <div class="community-callout" aria-label="交流群号">Q交流群 <strong>596028091</strong></div>
+        <div class="hero-actions" aria-label="主要操作">
+          <a class="button primary" href="#install">从下载启动开始</a>
+          <a class="button ghost" href="#config">查看填写教程</a>
+        </div>
+        <div class="hero-notes" aria-label="关键提示和交流群">
+          <div class="note-chip"><b>仅 Windows</b>下载 Release 版本</div>
+          <div class="note-chip"><b>扫码登录</b>使用 B站 APP</div>
+          <div class="note-chip"><b>票务链接</b>会员购详情页</div>
+          <div class="note-chip"><b>个人使用</b>遵守平台规则</div>
+        </div>
+      </div>
+
+      <aside class="quick-card reveal" aria-labelledby="quick-title">
+        <div class="terminal" aria-label="Windows 下载启动步骤示例">
+          <div class="terminal-head">
+            <div class="terminal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <span>windows-start.txt</span>
+          </div>
+          <pre><code><span class="prompt">1</span> 打开 GitHub Releases 最新版
+<span class="prompt">2</span> 下载 Windows 文件
+<span class="prompt">3</span> 解压到单独文件夹
+<span class="prompt">4</span> 双击 exe 启动</code></pre>
+        </div>
+        <ol class="quick-steps" id="quick-title">
+          <li><span><strong>下载最新版</strong>从 Release 页面下载。</span></li>
+          <li><span><strong>启动程序</strong>解压后双击文件夹里的 <code>.exe</code>。</span></li>
+          <li><span><strong>扫码登录</strong>使用哔哩哔哩 APP 扫码并确认。</span></li>
+          <li><span><strong>确认执行</strong>按提示填写信息，最后输入 <code>y</code>。</span></li>
+        </ol>
+      </aside>
+    </section>
+
+    <div class="content-wrap">
+      <nav class="toc reveal" aria-label="教程目录">
+        <p class="toc-title">目录</p>
+        <a href="#prepare">01 准备事项</a>
+        <a href="#install">02 下载与启动</a>
+        <a href="#login">03 首次登录</a>
+        <a href="#config">04 填写票务信息</a>
+        <a href="#existing">05 使用已有任务</a>
+        <a href="#run">06 执行流程</a>
+        <a href="#faq">07 常见问题</a>
+        <a href="#safe-use">08 使用注意</a>
+      </nav>
+
+      <main class="docs-main" id="main">
+        <article>
+          <section class="section reveal" id="prepare" data-index="01" aria-labelledby="prepare-title">
+            <h2 id="prepare-title">准备事项</h2>
+            <p class="lead">开始前先确认电脑、账号和票务链接。准备好这些内容后，按页面步骤操作即可。</p>
+            <div class="grid-three">
+              <div class="info-card">
+                <span class="tag">windows</span>
+                <h3>Windows 电脑</h3>
+                <p>本教程只面向 <strong>Windows</strong> 用户。请下载 Release 中的 Windows 最新版，不需要安装任何开发环境，也不需要运行源码。</p>
+              </div>
+              <div class="info-card">
+                <span class="tag">account</span>
+                <h3>B站账号</h3>
+                <p>准备可扫码登录的哔哩哔哩 APP，并提前在会员购账号里维护好购票人信息。</p>
+              </div>
+              <div class="info-card">
+                <span class="tag">ticket</span>
+                <h3>票务链接</h3>
+                <p>准备完整会员购页面 URL，例如 <code>https://show.bilibili.com/platform/detail.html?id=123456</code>。</p>
+              </div>
+            </div>
+            <div class="callout"><strong>小提示：</strong>如果某个票务需要在线选座，或账号里没有完整购票人信息，程序可能会提示暂不支持或获取失败。</div>
+          </section>
+
+          <section class="section reveal" id="install" data-index="02" aria-labelledby="install-title">
+            <h2 id="install-title">下载与启动</h2>
+            <p class="lead">程序启动只有一个方法：到 GitHub Release 下载最新 Windows 版本，解压后双击启动。</p>
+            <ol class="steps">
+              <li><strong>打开下载页面</strong>访问 <a href="https://github.com/SRxTide/Trailblazer-bw/releases/latest" rel="noopener">Trailblazer-bw 最新 Release</a>。不要点绿色 <code>Code</code> 下载源码包。</li>
+              <li><strong>下载 Windows 文件</strong>在 Release 页面找到适合 Windows 的压缩包或可执行文件。通常它会在页面的 <code>Assets</code> 区域里。</li>
+              <li><strong>解压到单独文件夹</strong>如果下载的是压缩包，先右键解压。建议放到一个固定文件夹，例如桌面上的 <code>Trailblazer-bw</code> 文件夹。</li>
+              <li><strong>双击启动</strong>进入解压后的文件夹，双击里面的 <code>.exe</code> 程序。后续生成的登录信息和任务文件也会保存在这个文件夹里。</li>
+            </ol>
+            <div class="callout"><strong>Windows 安全提示：</strong>首次运行时如果系统弹出安全提醒，请确认文件来自上面的 GitHub Release 页面后再继续运行。</div>
+          </section>
+
+          <section class="section reveal" id="login" data-index="03" aria-labelledby="login-title">
+            <h2 id="login-title">首次登录</h2>
+            <p class="lead">首次运行或登录失效时，程序会让你扫码登录。按提示操作即可，不需要手动填写账号密码。</p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-dot">A</span>
+                <div class="timeline-body">
+                  <h3>程序检查是否登录过</h3>
+                  <p>如果之前已经登录过且仍然有效，程序会直接进入菜单；如果没有登录过或登录失效，就会进入扫码登录。</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot">B</span>
+                <div class="timeline-body">
+                  <h3>使用 B站 APP 扫码</h3>
+                  <p>程序生成二维码后，用官方哔哩哔哩 APP 扫描并在手机端确认登录。</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot">C</span>
+                <div class="timeline-body">
+                  <h3>选择下一步操作</h3>
+                  <p>登录成功后会看到 <code>1. 配置抢票流程</code> 和 <code>2. 退出登陆</code>。输入 <code>1</code> 进入配置与执行流程。</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-block" data-code-label="terminal">
+              <div class="code-label"><span>登录后的菜单示例</span></div>
+              <pre><code>你好啊你的用户名
+1. 配置抢票流程
+2. 退出登陆
+请选择操作 (1/2): 1</code></pre>
+            </div>
+          </section>
+
+          <section class="section reveal" id="config" data-index="04" aria-labelledby="config-title">
+            <h2 id="config-title">填写票务信息</h2>
+            <p class="lead">这是最重要的一步。程序会按顺序问你票务链接、想买哪一档、买几张、选择谁作为购票人、什么时候开始，以及是否需要结果通知。</p>
+            <ol class="steps">
+              <li><strong>输入票务网址</strong>粘贴 B站会员购票务详情页完整链接。链接一般长这样：<code>https://show.bilibili.com/platform/detail.html?id=123456</code>。</li>
+              <li><strong>选择票务与数量</strong>从命令行列出的票档中输入序号，再输入购票数量。当前交互限制为 <code>1-4</code> 张。</li>
+              <li><strong>选择购票人</strong>程序会读取账号下的购票人列表，并按票数逐个选择。已选择的购票人不会再次出现在后续可选列表中。</li>
+              <li><strong>设置开始时间</strong>如果想等到开票前再开始，就填写北京时间；如果想马上开始，直接按回车留空。</li>
+              <li><strong>设置结果通知</strong>如果你有 PushPlus，可以输入令牌接收通知；没有就直接回车跳过。</li>
+              <li><strong>保存任务文件</strong>程序会自动保存一个任务文件，方便你下次直接选择使用，不需要重复填写。</li>
+            </ol>
+
+            <h3>开始时间怎么填</h3>
+            <p>推荐使用 <code>年-月-日 时:分:秒</code>，例如下面这样。看不懂也没关系，留空就是立即开始。</p>
+            <div class="grid-two">
+              <div class="code-block" data-code-label="text">
+                <div class="code-label"><span>推荐格式</span></div>
+                <pre><code>2025-06-23 01:26:21</code></pre>
+              </div>
+              <div class="code-block" data-code-label="text">
+                <div class="code-label"><span>不填写</span></div>
+                <pre><code>直接按回车 = 立即开始</code></pre>
+              </div>
+            </div>
+
+            <h3>填写完成后的摘要示例</h3>
+            <div class="code-block" data-code-label="terminal">
+                <div class="code-label"><span>摘要会显示关键信息</span></div>
+              <pre><code>=== 任务摘要 ===
+用户: 我的用户名
+票务: 项目名称 - VIP区 - VIP票 - ¥688.0 - 预售中
+数量: 2
+购票人:
+  1. 张三 - 110101199001011234
+  2. 李四 - 110101199002022345
+总价: ￥1376.00
+
+任务保存完成！</code></pre>
+            </div>
+          </section>
+
+          <section class="section reveal" id="existing" data-index="05" aria-labelledby="existing-title">
+            <h2 id="existing-title">使用已有任务</h2>
+            <p class="lead">如果你以前填写过信息，程序会在启动后列出已经保存的任务。选择对应数字，核对无误后确认即可。</p>
+            <div class="code-block" data-code-label="terminal">
+              <div class="code-label"><span>任务列表选择示例</span></div>
+              <pre><code>=== 任务列表 ===
+1. ticket.json - 项目名称 - VIP区 - VIP票 - ¥688.0 - 预售中
+2. new_ticket.json - 项目名称 - A区 - A区票 - ¥488.0 - 预售中
+
+请选择要使用的任务 (1-2)，或输入 0 新建任务: 1
+
+=== 已选择任务 ===
+任务文件: ticket.json
+票务: 项目名称 - VIP区 - VIP票 - ¥688.0 - 预售中
+B站账号用户名: 我的用户名
+购票人1: 张三
+购票人手机号1: 13800138000
+是否确认开始抢票? (y/n): y</code></pre>
+            </div>
+            <div class="callout"><strong>找不到任务怎么办：</strong>请回到你第一次解压并启动程序的那个文件夹，再双击里面的程序。不要把 exe 单独拖到别的地方运行。</div>
+          </section>
+
+          <section class="section reveal" id="run" data-index="06" aria-labelledby="run-title">
+            <h2 id="run-title">执行流程</h2>
+            <p class="lead">确认任务后，程序会检查信息、可选测试 PushPlus 推送，然后根据你填写的开始时间等待或立即执行。</p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-dot">01</span>
+                <div class="timeline-body">
+                  <h3>检查任务</h3>
+                  <p>程序读取你选择的任务，显示项目、票档、购票人等摘要，方便最后确认。</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot">02</span>
+                <div class="timeline-body">
+                  <h3>等待开始时间</h3>
+                  <p>如果开始时间留空，程序立即开始；如果填写了时间，程序会按北京时间等待到指定时间。</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot">03</span>
+                <div class="timeline-body">
+                  <h3>执行任务</h3>
+                  <p>任务开始后请保持程序窗口打开。成功后会输出订单相关日志；如果填写了 PushPlus，也会发送通知。</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-block" data-code-label="terminal">
+              <div class="code-label"><span>执行日志片段示例</span></div>
+              <pre><code>成功加载 1 个任务
+开始执行抢票任务
+执行第 1 个任务: 项目名称 - VIP区 - VIP票 - ¥688.0 - 预售中
+✓ 设定开始时间: 2025-06-23 01:26:21
+等待抢票时间到达...
+开始抢票...
+抢票成功！订单号：B2025062012345678
+程序退出</code></pre>
+            </div>
+          </section>
+
+          <section class="section reveal" id="faq" data-index="07" aria-labelledby="faq-title">
+            <h2 id="faq-title">常见问题</h2>
+            <div class="faq">
+              <details>
+                <summary>二维码登录失败怎么办？</summary>
+                <p>确认网络可用，使用官方哔哩哔哩 APP 扫码，并在手机端完成确认。如果本地凭证已失效，可在程序菜单选择 <code>2. 退出登陆</code> 后重新扫码。</p>
+              </details>
+              <details>
+                <summary>为什么获取不到票务信息？</summary>
+                <p>先检查 URL 是否是完整会员购详情页链接；再确认票务仍处于可查询状态。若项目是选座票或缺少身份证、手机号购票人要求，当前流程会提示暂不支持。</p>
+              </details>
+              <details>
+                <summary>为什么看不到以前保存的任务？</summary>
+                <p>请回到你第一次解压程序的文件夹，再双击里面的 exe。不要把 exe 单独复制到其他地方运行，否则可能看不到之前保存的任务。</p>
+              </details>
+              <details>
+                <summary>PushPlus 是必须填写的吗？</summary>
+                <p>不是。PushPlus 只用于推送抢票结果通知。填写信息时直接回车留空即可跳过；填写令牌后，程序会询问是否发送测试消息。</p>
+              </details>
+            </div>
+          </section>
+
+          <section class="section reveal" id="safe-use" data-index="08" aria-labelledby="safe-title">
+            <h2 id="safe-title">使用注意</h2>
+            <p class="lead">请仅在个人合规场景使用，遵守哔哩哔哩会员购规则和当地法律法规。黄牛、倒卖或其他违规用途不应使用本项目。</p>
+            <div class="grid-two">
+              <div class="info-card">
+                <span class="tag">secret</span>
+                <h3>保护本地凭证</h3>
+                <p>程序文件夹里生成的文件可能包含登录信息、购票人信息或推送令牌。不要发给陌生人，也不要上传到公开网站。</p>
+              </div>
+              <div class="info-card">
+                <span class="tag">rule</span>
+                <h3>理解执行风险</h3>
+                <p>第三方平台规则、接口和风控策略可能变化。使用前请阅读项目 README 中的使用者责任与开发者免责说明。</p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>Trailblazer-bw 使用教程 · <a href="https://github.com/SRxTide/Trailblazer-bw" rel="noopener">GitHub 仓库</a> · 本页仅说明 Windows 下载、填写信息和运行流程</p>
+    </footer>
+  </div>
+
+  <script>
+    const codeBlocks = document.querySelectorAll('.code-block');
+
+    codeBlocks.forEach((block) => {
+      const pre = block.querySelector('pre');
+      const label = block.querySelector('.code-label');
+      if (!pre || !label) return;
+
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-code';
+      button.textContent = '复制';
+      button.setAttribute('aria-label', '复制代码');
+      label.appendChild(button);
+
+      button.addEventListener('click', async () => {
+        const text = pre.innerText.trim();
+        try {
+          await navigator.clipboard.writeText(text);
+          button.textContent = '已复制';
+          setTimeout(() => {
+            button.textContent = '复制';
+          }, 1400);
+        } catch (error) {
+          button.textContent = '复制失败';
+          setTimeout(() => {
+            button.textContent = '复制';
+          }, 1600);
+        }
+      });
+    });
+
+    const tocLinks = Array.from(document.querySelectorAll('.toc a'));
+    const sections = tocLinks
+      .map((link) => document.querySelector(link.getAttribute('href')))
+      .filter(Boolean);
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const active = `.toc a[href="#${entry.target.id}"]`;
+          tocLinks.forEach((link) => link.classList.remove('is-active'));
+          const link = document.querySelector(active);
+          if (link) link.classList.add('is-active');
+        });
+      }, { rootMargin: '-24% 0px -62% 0px', threshold: 0.01 });
+
+      sections.forEach((section) => observer.observe(section));
+    }
+  </script>
+</body>
+</html>
